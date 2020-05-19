@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: sans-serif;
+  background-color: lightblue;
+}
+}
+.payment-container
+{
+    height: 500px;
+    width: 300px;
+    background-image: linear-gradient(#ff6600,#00ffff);
+    top: 50%;
+    left: 50%;
+    transform: translate(-400px, -350px);
+    position: absolute;
+}
+.top-box
+{
+    height: 150px;
+    background-color: #66ccff;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+
+}
+.top-box p
+{
+    text-align: center;
+    padding-top; 20px;
+    color: #fff;
+}
+.left-icon
+{
+  float: left;
+  margin-left: 30px;  
+}
+.right-icon
+{
+  float: right;
+  margin-right: 30px;  
+}
+.middle-box
+{
+    height: 150px;
+    background-image: linear-gradient(#580e8f, #9200ff);
+    margin: -70px 30px 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 10px;
+}
+.middle-box h1
+{
+ padding-top: 30px;
+ padding-bottom: 30px;
+ font-size: 50px;
+ font-weight: normal;   
+}
+.middle-box h1 span
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size:50px;
+    font-weight: normal;
+}
+.payment-option-btn
+{
+    color:#fff;
+    margin: 5px 30px;
+    height: 30px;
+    width: 290px;
+    background-color: #9100fd;
+    border: none;
+    cursor: pointer;
+}
+.card-details
+{
+    background: #fff;
+    color: #555;
+    margin: 10px 30px;
+    padding: 10px
+}
+.card-details p
+{
+ font-size: 20px;   
+}

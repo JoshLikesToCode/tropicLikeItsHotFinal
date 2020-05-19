@@ -1,0 +1,123 @@
+/* BASIC SETUP */
+/**************/
+
+* {
+	margin: 0;
+	padding 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+}
+
+html {
+	background-color: #fff;
+	color: #e6ae25;
+	font-family: 'Lato', 'Arial', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	text-rendering: optimizeLegibility;
+}
+
+.row {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+/* HEADER */
+/**************/
+
+
+.float-text {
+	position: absolute;
+	width: 1140px;
+	margin: auto;
+	width: 50%;
+	top: 50%;
+	left: 25%;
+}
+
+header {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0,0.7)), url(/images/header.jpeg);
+	height: 100vh;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+/* RE-USABLE PARTS */
+/**************/
+
+
+.logo {
+	height: 100px;
+	width: 100px;
+	top: 0;
+        left: 0;
+        position: absolute;
+        margin-top: 5px;
+        margin-left: 15px;
+}
+
+
+h1 {
+	margin: 0;
+	font-size: 90%;
+	font-family: 'Lato', 'Arial', sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	word-spacing: 3px;	
+}
+
+.greet {
+
+
+	height: 100px;
+        width: 100px;
+        top: 0;
+        left: 0;
+        position: absolute;
+        margin-top: 105px;
+        margin-left: 15px;
+	font-size: 75%;
+	font-family: 'Lato', 'Arial', sans-serif;
+	font-weight: 300;
+	word-spacing: 3px;
+	color: white;
+}
+
+.btn {
+	display: inline-block;
+	padding: 10px 30px;
+	font-weight: 300;
+	text-decoration: none;
+	border-radius: 200px;
+}
+
+.btn:hover {
+  box-shadow:  0px 4px 6px 0px rgba(0,0,0,0.4);
+}
+
+.btn-full {
+	background-color: #e67e22;
+	border: 1px solid #e67e22;
+	color: #fff;
+
+	top: 0;
+	right: 0;
+	position: absolute;
+	margin-top: 35px;
+	margin-right: 20px;
+}
+
+.btn-ghost {
+	border: 1px solid #e67e22;
+	color: #e67e22;
+}
+
